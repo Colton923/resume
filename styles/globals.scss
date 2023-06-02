@@ -1,0 +1,29 @@
+:root {
+  --yellow: #FFE81F;
+  --orange: #FF9214;
+  --teal: #33DAFF;
+  --blue: #040615;
+  --brown: #7B3F00;
+  --grey: #1C1C1C;
+  --green: #00FF8C;
+  --red: #FF4747;
+  --white: #FFFFFF;
+  --black: #000000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-weight: 400;
+  font-size: 16px;
+  color: var(--white);
+  background-color: var(--black);
+
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+ }

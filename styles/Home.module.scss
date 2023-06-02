@@ -1,0 +1,98 @@
+.container {
+  overflow: hidden;
+
+  letter-spacing: .3rem;
+  text-shadow: 1px 0px rgba(200, 200, 200, 0.7);
+  width: 100%;
+    background: radial-gradient(
+      circle at 50% 0, #0e53f0, #0080ff, #009ffa, #00b7e3, #00ccce, #00d0c8, #00d4bf, #00d8b5, #16cebf, #39c4c4, #55b9c3, #6caebc);background-image: linear-gradient(to right bottom, #0e53f0, #0080ff, #009ffa, #00b7e3, #00ccce, #00d0c8, #00d4bf, #00d8b5, #16cebf, #39c4c4, #55b9c3, #6caebc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 80% 80%;
+    animation: rotate 50s linear infinite;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 0 auto;
+    width: 95%;
+    line-height: 1.5;
+    text-align: center;
+
+    .header {
+      display: flex;
+      position: relative;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      background: darkcyan;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transform: scale(2);
+      margin-bottom: 3rem;
+    }
+  }
+
+  h2 {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-top: 1rem;
+    text-indent: 10px;
+
+  }
+
+  h3 {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    text-indent: 10px;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+    text-indent: 10px;
+    font-style: italic;
+  }
+
+  p {
+    font-size: 1rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+    text-indent: 10px;
+    text-align: start;
+    padding: 1rem;
+  }
+
+  .break {
+    height: 1rem;
+    width: 100%;
+  }
+
+}
+
+@keyframes rotate {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 500% 50%;
+
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.link {
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.1);
+    background-color: black;
+  }
+}
