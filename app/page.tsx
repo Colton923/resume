@@ -23,9 +23,9 @@ export default function Index() {
     const starVertices = new Float32Array(NUMBER_OF_STARS * 3)
 
     const animate = () => {
-      starGeometry.rotateZ(0.00001)
+      starGeometry.rotateZ(0.00000001)
       starGeometry.rotateX(0.0000001)
-      starGeometry.rotateY(0.0001)
+      starGeometry.rotateY(0.000001)
 
       renderer.render(scene, camera)
       requestAnimationFrame(animate)
