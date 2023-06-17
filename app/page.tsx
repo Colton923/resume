@@ -23,8 +23,8 @@ export default function Index() {
     const starVertices = new Float32Array(NUMBER_OF_STARS * 3)
 
     const animate = () => {
-      starGeometry.rotateZ(0.00001)
-      starGeometry.rotateX(0.00001)
+      starGeometry.rotateZ(0.0001)
+      starGeometry.rotateX(0.001)
       starGeometry.rotateY(0.0001)
 
       renderer.render(scene, camera)
@@ -79,8 +79,8 @@ export default function Index() {
         </div>
 
         <p>Maryland Resident</p>
-        <Link className={styles.link} href="c.mcclin@webdevsolutionsllc.com">
-          <p className={styles.link}>c.mcclin@webdevsolutionsllc.com</p>
+        <Link className={styles.link} href="mailto:c.mcclin@webdevsolutionsllc.com">
+          <p className={styles.link} style={{fontSize: '10px', textDecoration: 'underline'}}>c.mcclin@webdevsolutionsllc.com</p>
         </Link>
         <Link
           className={styles.link}
@@ -130,7 +130,7 @@ export default function Index() {
         </p>
 
         <h3>THE GOLF FELLOWSHIP | Chief Technical Officer | 2022-2023</h3>
-        <p>
+        <p style={{marginLeft: '1rem'}}>
           Led the end-to-end development of The Golf Fellowship web application, leveraging the
           tech-stack mentioned above. Provided comprehensive technology consultation and management
           for the startup, ensuring seamless integration of various components. Designed and

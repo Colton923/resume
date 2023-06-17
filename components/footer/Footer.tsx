@@ -9,7 +9,7 @@ const Footer = () => {
           <h3 className={styles.footerTitle}>Contact</h3>
           <div className={styles.inline}>
             <span>
-              <Link className={styles.link} href="c.mcclin@webdevsolutionsllc.com">
+              <Link className={styles.link} href="c.mcclin@webdevsolutionsllc.com" style={{fontSize: '10px', textDecoration: 'underline'}}>
                 c.mcclin@webdevsolutionsllc.com
               </Link>
             </span>
