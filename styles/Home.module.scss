@@ -4,48 +4,48 @@
   letter-spacing: .3rem;
   text-shadow: 1px 0px rgba(200, 200, 200, 0.7);
   width: 100%;
-    background: radial-gradient(
-      circle at 50% 0, #0e53f0, #0080ff, #009ffa, #00b7e3, #00ccce, #00d0c8, #00d4bf, #00d8b5, #16cebf, #39c4c4, #55b9c3, #6caebc);background-image: linear-gradient(to right bottom, #0e53f0, #0080ff, #009ffa, #00b7e3, #00ccce, #00d0c8, #00d4bf, #00d8b5, #16cebf, #39c4c4, #55b9c3, #6caebc);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 80% 80%;
-    animation: rotate 50s linear infinite;
+  background: radial-gradient(
+    circle at 50% 0, #3367e0, #0080ffb5, #009efa71, #00b6e376, #00cbce7e, #00d0c97c, #00d4bf6e, #00d8b485, #16cebf97, #39c4c47e, #55bac37b, #6cadbc81);
+  background-image: linear-gradient(to right bottom, #0e53f0, #0080ff, #009ffa, #00b7e3, #00ccce, #00d0c8, #00d4bf, #00d8b5, #16cebf, #39c4c4, #55b9c3, #6caebc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 80% 80%;
+  animation: rotate 50s linear infinite;
 
   .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
     margin: 0 auto;
     width: 95%;
     line-height: 1.5;
     text-align: center;
-
+    max-width: 800px;
+    
     .header {
       display: flex;
       position: relative;
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      background: darkcyan;
+      background: rgb(18, 189, 189);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      font-size: 4rem;
+      font-size: 3rem;
       margin-bottom: 3rem;
     }
   }
 
   h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 300;
     margin-top: 1rem;
     text-indent: 10px;
-
   }
 
   h3 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 300;
     margin-bottom: 2rem;
     text-indent: 10px;
@@ -62,10 +62,10 @@
   p {
     font-size: 1rem;
     font-weight: 100;
-    margin-bottom: 1rem;
+    margin: 1rem;
     text-indent: 10px;
     text-align: start;
-    padding: 1rem;
+    word-wrap: break-word;
   }
 
   .break {
