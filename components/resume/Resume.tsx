@@ -1,19 +1,7 @@
 import resume from './components/resume.json'
 
 import Provider from './components/Provider'
-import {
-  Center,
-  Container,
-  Group,
-  Space,
-  Text,
-  Accordion,
-  Code,
-  Timeline,
-  Progress,
-  Flex,
-} from '@mantine/core'
-import type { AccordionProps, TimelineProps, ProgressProps } from '@mantine/core'
+import { Center, Container, Group, Space, Text, Accordion, Flex } from '@mantine/core'
 
 const colors = ['#EBDCEE', '#4E4351', '#B4A7B7', '#BEE9E4', '#88B2AD']
 
