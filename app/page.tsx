@@ -3,9 +3,9 @@
 import { useEffect } from 'react'
 import * as THREE from 'three'
 import Navbar from 'components/navbar/Navbar'
-import Footer from 'components/footer/Footer'
 import styles from 'styles/Home.module.scss'
 import Resume from 'components/resume/Resume'
+
 const NUMBER_OF_STARS = 1000
 
 export default function Index() {
@@ -73,7 +73,6 @@ export default function Index() {
     <div className={styles.container}>
       <Navbar />
       <Resume />
-      <Footer />
     </div>
   )
 }
