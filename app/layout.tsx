@@ -1,5 +1,4 @@
 import 'styles/globals.scss'
-
 import { Orbitron } from 'next/font/google'
 
 interface Props {
