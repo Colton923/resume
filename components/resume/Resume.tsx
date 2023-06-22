@@ -12,9 +12,17 @@ import {
   Flex,
   Paper,
   Title,
+  Badge,
+  Space,
 } from '@mantine/core'
 
-const colors = ['#EBDCEE', '#4E4351', '#B4A7B7', '#BEE9E4', '#88B2AD']
+const colors = [
+  'rgba(80, 120, 183, 0.8)',
+  'rgba(80, 120, 175)',
+  'rgba(80, 120, 170, 0.3)',
+  'rgba(80, 120, 175)',
+  'rgba(80, 120, 183, 0.3)',
+]
 
 const Resume = () => {
   return (
@@ -24,6 +32,7 @@ const Resume = () => {
           <Paper shadow="sm" withBorder={true} radius={'lg'}>
             <BackgroundImage src="/effect.png">
               <Container size="lg">
+                <Space h="lg" />
                 <Center>
                   <Title size="h1" weight={700} style={{ marginBottom: '1rem' }}>
                     {resume.name}
@@ -33,6 +42,7 @@ const Resume = () => {
                   {resume.summary}
                 </Text>
               </Container>
+              <Space h="lg" />
               <Container size="md">
                 <Text size="lg" weight={700} style={{ marginBottom: '1rem' }}>
                   Employment:
@@ -79,21 +89,36 @@ const Resume = () => {
                   ))}
                 </Accordion>
               </Container>
+              <Space h="lg" />
               <Container size="md">
                 <Text size="lg" weight={700} style={{ marginBottom: '1rem' }}>
                   {`Skills`}
                 </Text>
                 <Flex
                   direction="row"
-                  justify={'space-around'}
+                  justify={'space-between'}
                   wrap={'wrap'}
                   style={{ marginBottom: '1rem' }}
                 >
                   {resume.skills.programmingSkills.map((skill, index) => {
-                    return <Text size={'sm'} key={index}>{`${skill},`}</Text>
+                    return (
+                      <Badge
+                        variant={'gradient'}
+                        gradient={{
+                          from: colors[index % colors.length],
+                          to: colors[(index + 1) % colors.length],
+                        }}
+                        key={index}
+                        style={{ padding: '.5rem', margin: '.3rem' }}
+                      >
+                        {skill}
+                      </Badge>
+                    )
                   })}
                 </Flex>
-
+              </Container>
+              <Space h="lg" />
+              <Container size="md">
                 <Text size="lg" weight={700} style={{ marginBottom: '1rem' }}>
                   Education:
                 </Text>
@@ -108,6 +133,7 @@ const Resume = () => {
                   ))}
                 </ul>
               </Container>
+              <Space h="lg" />
               <Footer />
             </BackgroundImage>
           </Paper>
