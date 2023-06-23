@@ -16,14 +16,14 @@
   },
   "employment": [
     {
-      "company": "WEBDEV SOLUTIONS LLC",
-      "position": "Owner/Web Application Developer",
-      "location": "Anywhere, USA",
+      "company": "SENIOR PROJECT MANAGEMENT ANALYST",
+      "position": "Mantech Industries",
+      "location": "California, MD",
       "duration": {
-        "start": "2016",
-        "end": "Current"
+        "start": "2023",
+        "end": "2023"
       },
-      "description": "Spearhead the development and management of multiple small business projects as the sole developer and project manager. Create business logic, assets, and seamlessly integrated solutions to meet the specific needs of each project. Design and develop immersive user interfaces for both mobile and desktop applications, ensuring engaging and intuitive user experiences. Offer comprehensive engineering services to small businesses, delivering tailored solutions to address their unique challenges and requirements. Successfully fulfill various roles including Product Owner, Scrum Master, Developer, and Project Manager, resulting in positive customer experiences and project success. Proficient in Next-JS, React, and Typescript for efficient and high-quality development. Experienced in working with databases such as MySQL and NoSQL, and leveraging serverless architecture and Google Cloud Platform for scalable and cost-effective solutions. Familiarity with payment platforms like Stripe, deployment platforms like Vercel, and utilizing Firebase and Supabase for backend services."
+      "description": "Led the management and development of the Microsoft Project Schedule for the Manflight Program at PAX NAVAIR, ensuring efficient project execution. Organized and facilitated meetings to identify and address project risks, evaluate earned value, plan upcoming tasks, determine critical paths, and allocate resources effectively. Collaborated with the Lead Software Engineer to develop and optimize Jira, a project management tool, for the Agile Scrum teams workflow. Implemented a VBA interface and devised logic to automate the integration of Jira with MS Project, streamlining software development management processes. Conducted weekly sprint planning sessions, fostering iterative development and ensuring alignment with project objectives. Facilitated daily scrum meetings to promote communication, collaboration, and transparency among team members, enhancing overall project coordination and progress tracking."
     },
     {
       "company": "THE GOLF FELLOWSHIP",
@@ -44,25 +44,6 @@
       "description": "Developed engaging and user-friendly UI/UX designs using SCSS, CSS, HTML, JavaScript, React, and Next JS. Implemented a robust database solution utilizing the Firebase Firestore NoSQL Database. Designed and implemented editable table components using AG-Grid and React, enhancing user interaction and data management capabilities. Created an intuitive admin panel that enables easy updates of database values used in the Loan Verification Form Calculations. Engineered a complex email system triggered by the submission of the Loan Verification Form. The system dynamically updates and re-emails a series of emails containing relevant links using webhooks from the server. Integrated signable PDFs into the system, facilitating seamless document signing processes. Additionally, integrated with external party Lendingwise.com to streamline operations and improve efficiency."
     },
     {
-      "company": "BBC TEXAS THREE JS WEB APP",
-      "position": "Contractor",
-      "duration": {
-        "start": "2019",
-        "end": "2021"
-      },
-      "description": "Successfully replicated an existing website-builder website, ensuring a seamless user experience and feature parity. Developed the login functionality, enabling secure access for users. Implemented Stripe subscription integration for streamlined payment processing. Designed and built a user interface using React, React Hook Forms, and TypeScript, offering an extensive range of options for customizing commercial metal buildings. Implemented a dynamic 3D model generation feature that responds to user inputs, allowing users to interactively move and view the generated building model. Planned for future enhancements by incorporating the capability to generate 2D views of the model, facilitating blueprinting and design processes as the project progresses."
-    },
-    {
-      "company": "SENIOR PROJECT MANAGEMENT ANALYST",
-      "position": "Mantech Industries",
-      "location": "California, MD",
-      "duration": {
-        "start": "2023",
-        "end": "2023"
-      },
-      "description": "Led the management and development of the Microsoft Project Schedule for the Manflight Program at PAX NAVAIR, ensuring efficient project execution. Organized and facilitated meetings to identify and address project risks, evaluate earned value, plan upcoming tasks, determine critical paths, and allocate resources effectively. Collaborated with the Lead Software Engineer to develop and optimize Jira, a project management tool, for the Agile Scrum teams workflow. Implemented a VBA interface and devised logic to automate the integration of Jira with MS Project, streamlining software development management processes. Conducted weekly sprint planning sessions, fostering iterative development and ensuring alignment with project objectives. Facilitated daily scrum meetings to promote communication, collaboration, and transparency among team members, enhancing overall project coordination and progress tracking."
-    },
-    {
       "company": "SYSTEMS ENGINEER",
       "position": "KBR",
       "location": "California, MD",
@@ -71,6 +52,25 @@
         "end": "2023"
       },
       "description": "Provided support to the JSF F35 Electromagnetic Environmental Effects team, contributing to their objectives and ensuring efficient operations. Generated and managed data in a secure environment, prioritizing data integrity and confidentiality. Worked within an Agile software engineering team, participating in the development of a large-scale backend-focused solution. Utilized SQL and VBA to develop and optimize database functionalities, enhancing performance and usability. Assisted in financial tracking and database management, ensuring accurate and organized data for effective decision-making and reporting."
+    },
+    {
+      "company": "WEBDEV SOLUTIONS LLC",
+      "position": "Owner/Web Application Developer",
+      "location": "Anywhere, USA",
+      "duration": {
+        "start": "2021",
+        "end": "Current"
+      },
+      "description": "Spearhead the development and management of multiple small business projects as the sole developer and project manager. Create business logic, assets, and seamlessly integrated solutions to meet the specific needs of each project. Design and develop immersive user interfaces for both mobile and desktop applications, ensuring engaging and intuitive user experiences. Offer comprehensive engineering services to small businesses, delivering tailored solutions to address their unique challenges and requirements. Successfully fulfill various roles including Product Owner, Scrum Master, Developer, and Project Manager, resulting in positive customer experiences and project success. Proficient in Next-JS, React, and Typescript for efficient and high-quality development. Experienced in working with databases such as MySQL and NoSQL, and leveraging serverless architecture and Google Cloud Platform for scalable and cost-effective solutions. Familiarity with payment platforms like Stripe, deployment platforms like Vercel, and utilizing Firebase and Supabase for backend services."
+    },
+    {
+      "company": "BBC TEXAS THREE JS WEB APP",
+      "position": "Contractor",
+      "duration": {
+        "start": "2019",
+        "end": "2021"
+      },
+      "description": "Successfully replicated an existing website-builder website, ensuring a seamless user experience and feature parity. Developed the login functionality, enabling secure access for users. Implemented Stripe subscription integration for streamlined payment processing. Designed and built a user interface using React, React Hook Forms, and TypeScript, offering an extensive range of options for customizing commercial metal buildings. Implemented a dynamic 3D model generation feature that responds to user inputs, allowing users to interactively move and view the generated building model. Planned for future enhancements by incorporating the capability to generate 2D views of the model, facilitating blueprinting and design processes as the project progresses."
     }
   ],
   "skills": {

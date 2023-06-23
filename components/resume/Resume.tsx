@@ -29,21 +29,21 @@ const Resume = () => {
     <>
       <Provider>
         <Container size="lg">
-          <Paper shadow="sm" withBorder={true} radius={'lg'}>
-            <BackgroundImage src="/effect.png">
+          <Paper shadow="xl" withBorder={true} radius={'lg'}>
+            <BackgroundImage src="/effect.png" radius={'md'}>
               <Container size="lg">
+                <Space h="lg" />
                 <Space h="lg" />
                 <Center>
                   <Title size="h1" weight={700} style={{ marginBottom: '1rem' }}>
                     {resume.name}
                   </Title>
                 </Center>
-                <Text size="lg" style={{ marginBottom: '1rem' }}>
-                  {resume.summary}
-                </Text>
+                <Space h="lg" />
               </Container>
               <Space h="lg" />
               <Container size="md">
+                <Space h="lg" />
                 <Text size="lg" weight={700} style={{ marginBottom: '1rem' }}>
                   Employment:
                 </Text>
@@ -91,6 +91,7 @@ const Resume = () => {
               </Container>
               <Space h="lg" />
               <Container size="md">
+                <Space h="lg" />
                 <Text size="lg" weight={700} style={{ marginBottom: '1rem' }}>
                   {`Skills`}
                 </Text>
@@ -116,9 +117,11 @@ const Resume = () => {
                     )
                   })}
                 </Flex>
+                <Space h="lg" />
               </Container>
               <Space h="lg" />
               <Container size="md">
+                <Space h="lg" />
                 <Text size="lg" weight={700} style={{ marginBottom: '1rem' }}>
                   Education:
                 </Text>
@@ -132,6 +135,7 @@ const Resume = () => {
                     </Text>
                   ))}
                 </ul>
+                <Space h="lg" />
               </Container>
               <Space h="lg" />
               <Footer />
