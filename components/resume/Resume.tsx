@@ -93,7 +93,7 @@ const Resume = () => {
               <Container size="md">
                 <Space h="lg" />
                 <Text size="lg" weight={700} style={{ marginBottom: '1rem' }}>
-                  {`Skills`}
+                  {`Skills:`}
                 </Text>
                 <Flex
                   direction="row"

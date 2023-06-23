@@ -12,7 +12,7 @@ const Footer = () => {
               <Link
                 style={{ fontSize: '0.5rem' }}
                 className={styles.link}
-                href="c.mcclin@webdevsolutionsllc.com"
+                href="mailto:c.mcclin@webdevsolutionsllc.com"
               >
                 c.mcclin@webdevsolutionsllc.com
               </Link>
